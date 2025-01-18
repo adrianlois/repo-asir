@@ -1,0 +1,63 @@
+
+                 ,---,                            ,----..    
+               .'  .' `\                         /   /   \   
+             ,---.'     \          ,--,         :   :     :  
+    ,----._,.:   :  .`\  :       ,'_ /:         .   :  ;. /  
+   /   /  ' /:   : :  '  :  .--. :  : :     .--,.   ; /--`   
+  :   :     ::   ' '  ;  :,'_ /: :  . :   /_ ./:;   : ;  __  
+  :   : .\  .'   : ;  .  ::  ' : :  . ., ' , ' ::   : :.' .' 
+  .   ; ';  ::   : :  :  ':  : ' :  : /___/ \: :.   : '_.' : 
+  '   .   . :'   : : /  ; :  : : ;  ; :.  \  ' :'   ; : \  : 
+   `---`-': ::   : '` ,/  '  :  `--'   \\  ;   :'   : '/  .' 
+   .'__/\_: :;   :  .'    :  ,      .-./ \  \  ;:   :    /   
+   :   :    ::   ,.'       `--`----'      :  \  \\   \ .'    
+    \   \  / '---'                         \  ' ; `---`      
+     `--`-'                                 `--`                                                                       
+  
+  
+  gDuyG nos permite elegir, a traves de un menu, 
+  diversas opciones respectivas a la gestion de usuarios y grupos locales.
+
+  Podemos usar este script de forma interactiva a traves de su menu. 
+  Tambien de forma no interactiva a traves del primer parametro que se le pase.
+
+  ____________
+ |  Sintaxis  |
+ |____________|
+
+     gDuyG.bat [/menu | -m] [/crearu | -cu] [/eliminaru | -eu] 
+	       [/crearug | -cug] [/creargau | -cgau]  [/eliminargt | -egt]  
+	       [/mostrar | -m] [/ayuda | -?]
+
+  ______________________________
+ |  Parametros o modificadores  |
+ |______________________________|
+
+  /menu | -m		Muestra el menu principal. 
+			Si no pasamos ningun parametro, esta sera la opcion 
+			por defecto.
+			
+  /crearu     | -cu 	Crea usuarios condicionando su cargo y turno horario.
+
+  /eliminaru  | -eu  	Elimina usuarios.
+
+  /crearug    | -cug  	Crea usuarios y grupos de turnos sin asignar a usuarios.
+
+  /creargau   | -cgau	Crea grupos de turnos asignado usuarios previamente creados.
+
+  /eliminargt | -egt	Elimina los grupos de turnos.
+
+  /mostrar    | -m      Muestra un lista de los usuarios y grupos actuales.
+
+  /ayuda      | -?      Muestra la ayuda del gDuyG.
+
+  ___________________
+ |  Ejemplos de uso  |
+ |___________________|
+
+     Crear usuarios condicionando su cargo y turno horario:
+	gDuyG.bat /crearu
+	
+     Eliminar los grupos de turnos:
+	gDuyG.bat -egt
+
