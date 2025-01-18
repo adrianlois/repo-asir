@@ -14,7 +14,6 @@
     \   \  / '---'                         \  ' ; `---`      
      `--`-'                                 `--`                                                                       
   
-  
   gDuyG nos permite elegir, a traves de un menu, 
   diversas opciones respectivas a la gestion de usuarios y grupos locales.
 
@@ -26,8 +25,8 @@
  |____________|
 
      gDuyG.bat [/menu | -m] [/crearu | -cu] [/eliminaru | -eu] 
-	       [/crearug | -cug] [/creargau | -cgau]  [/eliminargt | -egt]  
-	       [/mostrar | -m] [/ayuda | -?]
+            [/crearug | -cug] [/creargau | -cgau]  [/eliminargt | -egt]  
+            [/mostrar | -m] [/ayuda | -?]
 
   ______________________________
  |  Parametros o modificadores  |
